@@ -84,8 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 # Spicetify installation:
-export SPICETIFY_INSTALL="/home/juhokajava/spicetify-cli"
-export PATH="$SPICETIFY_INSTALL:$PATH"
+#export SPICETIFY_INSTALL="/home/juhokajava/spicetify-cli"
+#export PATH="$SPICETIFY_INSTALL:$PATH"
 
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
@@ -120,7 +120,7 @@ alias 644='chmod -R 644'
 alias 666='chmod -R 666'
 alias 755='chmod -R 755'
 alias 777='chmod -R 777'
-source /home/juhokajava/.tmc-autocomplete.sh || true
+#source /home/juhokajava/.tmc-autocomplete.sh || true
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -139,4 +139,4 @@ unset __conda_setup
 export HOST=$(hostname)
 alias config='/usr/bin/git --git-dir=/home/juhokajava/.dots/ --work-tree=/home/juhokajava'
 
-source /home/juhokajava/.tmc-autocomplete.sh || true
+#source /home/juhokajava/.tmc-autocomplete.sh || true
