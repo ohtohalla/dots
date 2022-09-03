@@ -83,9 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-# Spicetify installation:
-#export SPICETIFY_INSTALL="/home/juhokajava/spicetify-cli"
-#export PATH="$SPICETIFY_INSTALL:$PATH"
 
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
@@ -120,23 +117,23 @@ alias 644='chmod -R 644'
 alias 666='chmod -R 666'
 alias 755='chmod -R 755'
 alias 777='chmod -R 777'
-#source /home/juhokajava/.tmc-autocomplete.sh || true
+#source /$HOME/.tmc-autocomplete.sh || true
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/juhokajava/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/$HOME/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/juhokajava/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/juhokajava/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/$HOME/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/juhokajava/miniconda3/bin:$PATH"
+        export PATH="/$HOME/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 export HOST=$(hostname)
-alias config='/usr/bin/git --git-dir=/home/juhokajava/.dots/ --work-tree=/home/juhokajava'
+alias config='/usr/bin/git --git-dir=/$HOME/.dots/ --work-tree=/$HOME'
 
-#source /home/juhokajava/.tmc-autocomplete.sh || true
+#source /$HOME/.tmc-autocomplete.sh || true
