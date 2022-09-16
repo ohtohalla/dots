@@ -1,0 +1,22 @@
+
+set from="gregor42@mail.de"
+set realname="Gregor Hesse"
+set folder = "/home/gregor/.local/share/mail/maild"
+set mbox_type = Maildir
+
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set postponed = "+Drafts"
+set trash = "+Trash"
+
+mailboxes "=info" "=Bulk" "=Spam" "=Sent" "=Drafts" "=Schule" "=Trash" "=Uni" "=DeltaChat" "=Entw&APw-rfe" "=INBOX" "=Papierkorb" "=Gesendet"
+# set ssl_starttls=yes
+# set ssl_force_tls=yes
+
+
+set smtp_url="smtps://gregor42@mail.de@smtp.mail.de:587"
+set smtp_pass="`pass mail.de/gregor42@mail.de`"
+
+
+
+

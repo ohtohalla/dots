@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1610211505 "preamble.tex" "preamble.pdf" "preamble" 1610211505
+  "/home/gregor/.texlive2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1604316880 1146607 82f57f3e4c65c59903edaa2031bcd18b ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmitt10.tfm" 1136768653 768 2297ad2ac26f37e67f756dad27c77d68 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1608239349 39615 4ca7b2be4e89b50848d4f0b4d97130bb ""
+  "preamble.aux" 1610211429 8 a94a2480d3289e625eea47cd1b285758 ""
+  "preamble.tex" 1610211505 2574 4a1dc02439623670ae7451553ffec4a4 ""
+  (generated)
+  "preamble.log"
+  "preamble.pdf"
