@@ -4,19 +4,6 @@
 # if [ "$TMUX" = "" ]; then tmux; fi
 # export PATH="$HOME/.local/bin/:$PATH"
 
-# Source zsh plugins
-source $HOME/.config/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
-
-[ -d "/opt/homebrew/share/zsh-autosuggestions/" ] && source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh \
-                                                  || source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-[ -d "/opt/homebrew/share/zsh-syntax-highlighting/highlighters" ] && export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters \
-                                                                  || export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
-
-[ -d "/opt/homebrew/share/zsh-autosuggestions/" ] && source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh \
-                                                  || source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
 # Path to your oh-my-zsh installation.
 export ZSH="/$HOME/.oh-my-zsh"
 
