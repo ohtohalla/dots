@@ -1,4 +1,4 @@
- # If you come from bash you might have to change your $PATH.
+# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Adding lvim to PATH:
 # if [ "$TMUX" = "" ]; then tmux; fi
@@ -137,7 +137,14 @@ unset __conda_setup
 # <<< conda initialize <<<
 export HOST=$(hostname)
 alias config='/usr/bin/git --git-dir=/$HOME/.dots/ --work-tree=/$HOME'
+
+# NNN config
+
 export NNN_TMPFILE="$HOME/.config/nnn/.lastd"
 export VISUAL="$HOME/.config/nnn/plugins/selnew.sh"
+export NNN_OPTS="deEHor"
+export NNN_COLORS='12345678'
+export NNN_ARCHIVE="\\.(7z|bz2|gz|tar|tgz|zip)$"
+export NNN_TRASH=n # n=1: trash-cli, n=2: gio trash
 
 #source /$HOME/.tmc-autocomplete.sh || true
